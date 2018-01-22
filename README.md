@@ -5,7 +5,7 @@ a follow up to the Phonochrome project
 The P-ALES project aims two objectives:  
   the fist one is to associate phonemes to color like in the kinephone project  
   the second is to use this color chart to help reader know how to prononce the phonems
-this project focuses on languages that uses sinograms (chinese ideograms)  
+  this project focuses on languages that uses sinograms (chinese ideograms)  
 ## Client
 Yoann Goudin    yoann.goudin@univ-grenoble-alpes.fr
 doctoral degree in didactic, mandarin specialist
