@@ -13,7 +13,7 @@ from collections import OrderedDict
 
 # Il manque encore le cas des affriquées 
 
-def extractPaires(repIn,repOut): 
+def extractPairs(repIn,repOut): 
     """ 
     fonction qui extrait les paires de phonèmes et leurs fréquences  
         pour chaque lexique phonétisé 
@@ -21,7 +21,7 @@ def extractPaires(repIn,repOut):
     repOut : string - le répertoire contenant les fichiers de phonèmes 
     """ 
     # Instanciation des variables 
-    dicoPaires = {} 
+    dicoPairs = {} 
     listeP = [] 
     if not os.path.isdir(repOut): 
         os.mkdir(repOut) 
@@ -42,41 +42,41 @@ def extractPaires(repIn,repOut):
             langue = m.group(1) 
             # Parcours du lexique phonétisé 
             for line in lexPho: 
-                mot,phono = line.split("\t") 
+                word,phono = line.split("\t") 
                 #~ print ("le mot "+mot+" se prononce "+phono) 
-                print ("le mot {} se prononce {}".format(mot,phono)) 
+                print ("le mot {} se prononce {}".format(word,phono)) 
                 for i in range(0,len(phono)-1): 
                     # On traite l'élément courant 
                     # Cas des voyelles nasales en deux caractères API 
                     if (phono[i] == "ɔ" or phono[i] == "ɑ"  
                         or phono[i] == "ɛ") and (phono[i+1] == "̃"): 
-                        courant = phono[i] + phono[i+1] 
+                        currentP = phono[i] + phono[i+1] 
                         i += 1 
                     # Cas normal 
                     elif phono[i] != "̃": 
-                        courant = phono[i] 
+                        currentP = phono[i] 
                     # On traite ensuite l'élément suivant 
                     # Cas des voyelles nasales (2 caractères API) 
                     if (phono[i+1] == "ɔ" or phono[i+1] == "ɑ"  
                         or phono[i+1] == "ɛ") and (phono[i+2] == "̃"): 
-                        suivant = phono[i+1] + phono[i+2] 
+                        nextP = phono[i+1] + phono[i+2] 
                         i += 1 
                     # Cas normal : on vérifie qu'il y a bien un élément suivant 
                     elif phono[i+1] != "\n": 
-                        suivant = phono[i+1] 
+                        nextP = phono[i+1] 
                     # On forme les paires 
-                    paire = courant+suivant 
-                    phoneme = courant 
+                    pair = currentP+nextP 
+                    phoneme = currentP 
                     # Ajout de la paire au dictionnaire 
                     # Si la paire ne figure pas encore dans le dictionnaire 
-                    if (paire not in dicoPaires.keys()): 
+                    if (pair not in dicoPairs.keys()): 
                         # Ajout de la paire dans en clé + fréquence=1 
-                        dicoPaires[paire] = 1 
+                        dicoPairs[pair] = 1 
                     else: 
                         # Incrémentation de la fréquence 
-                        dicoPaires[paire] += 1 
-                    if courant not in listeP: 
-                        listeP.append(courant) 
+                        dicoPairs[pair] += 1 
+                    if current not in listeP: 
+                        listeP.append(current) 
             lexPho.close() 
         except IOError as e: 
             #~ print ("err n "+str(e.errno)+" lors de la lecture") 
@@ -85,24 +85,24 @@ def extractPaires(repIn,repOut):
         try: 
             # Création du fichier contenant tous les phonèmes 
             outputName = os.path.join(repOut,langue) + "_phonemes.txt" 
-            ficPhonemes = open(outputName,mode="w",encoding="utf8") 
+            filePhonemes = open(outputName,mode="w",encoding="utf8") 
             for phoneme in listeP: 
-                ficPhonemes.write(phoneme+"\n") 
+                filePhonemes.write(phoneme+"\n") 
         except IOError as e: 
             #~ print ("err n "+str(e.errno)+" lors de l'écriture") 
             print ("err n°{} lors de l'écriture".format(e.errno)) 
     del(listeP[:]) 
     try: 
         # Création du fichier d'écriture du fichier de sortie 
-        monFichier = open("pairesAdj.txt","w",encoding="utf8") 
+        myFile = open("pairesAdj.txt","w",encoding="utf8") 
         # Tri du dictionnaire contenant toutes les paires par value (fréquence) 
         # (reverse pour tri décroissant) 
-        dicoPairesO = OrderedDict(sorted(dicoPaires.items(), 
+        dicoPairsO = OrderedDict(sorted(dicoPairs.items(), 
             key=lambda t:t[1],reverse=True)) 
-        for key,value in dicoPairesO.items(): 
-            monFichier.write("{0}\t{1}\n".format(key,value)) 
+        for key,value in dicoPairsO.items(): 
+            myFile.write("{0}\t{1}\n".format(key,value)) 
             # ~ print ("paire {0} (fréquence : {1})".format(key, value)) 
-        monFichier.close() 
+        myFile.close() 
     except IOError as e: 
          #~ print ("err n "+str(e.errno) lors de l'écriture des fichiers de paires") 
          print ("err n°{} lors de l'écriture du fichier de paires".format(e.errno))
@@ -128,4 +128,4 @@ repOut = config.repOut
 helpParser()
 print('les chemins sont modifiables dans "config.py"\n')
 
-extractPaires(repIn,repOut) 
+extractPairs(repIn,repOut) 
