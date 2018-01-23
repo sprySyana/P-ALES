@@ -28,20 +28,22 @@ def extractPaires(repIn,repOut):
         # On obtient la liste des fichiers du répertoire 
         files=os.listdir(repIn) 
     except OSError as e: 
-        ("err n "+str(e.errno)+" lors de la lecture du dossier") 
+        #~ ("err n "+str(e.errno)+" lors de la lecture du dossier") 
+        ("err n°{} lors de la lecture du dossier".format(e.errno)) 
         return False 
     
     # On ouvre les lexiques un à un 
     for fichier in files: 
         try: 
-            lexPho = open(repIn+"\\"+fichier,"r",encoding="utf8") 
+            lexPho = open(os.path.join(repIn,fichier),"r",encoding="utf8") 
             # On récupère la langue dans le nom des fichiers 
             m = re.search(r'(.*)([_].*)',fichier) 
             langue = m.group(1) 
             # Parcours du lexique phonétisé 
             for line in lexPho: 
                 mot,phono = line.split("\t") 
-                print ("le mot "+mot+" se prononce "+phono) 
+                #~ print ("le mot "+mot+" se prononce "+phono) 
+                print ("le mot {} se prononce {}".format(mot,phono)) 
                 for i in range(0,len(phono)-1): 
                     # On traite l'élément courant 
                     # Cas des voyelles nasales en deux caractères API 
@@ -76,16 +78,18 @@ def extractPaires(repIn,repOut):
                         listeP.append(courant) 
             lexPho.close() 
         except IOError as e: 
-            print ("err n "+str(e.errno)+" lors de la lecture") 
+            #~ print ("err n "+str(e.errno)+" lors de la lecture") 
+            print ("err n°{} lors de la lecture".format(e.errno)) 
         # On stocke la liste des phonèmes dans un fichier spécifique 
         try: 
             # Création du fichier contenant tous les phonèmes 
-            outputName = repOut + "\\" + langue + "_phonemes.txt" 
+            outputName = os.path.join(repOut,langue) + "_phonemes.txt" 
             ficPhonemes = open(outputName,mode="w",encoding="utf8") 
             for phoneme in listeP: 
                 ficPhonemes.write(phoneme+"\n") 
         except IOError as e: 
-            print ("err n "+str(e.errno)+" lors de l'écriture") 
+            #~ print ("err n "+str(e.errno)+" lors de l'écriture") 
+            print ("err n°{} lors de l'écriture".format(e.errno)) 
     del(listeP[:]) 
     try: 
         # Création du fichier d'écriture du fichier de sortie 
@@ -99,8 +103,8 @@ def extractPaires(repIn,repOut):
             # ~ print ("paire {0} (fréquence : {1})".format(key, value)) 
         monFichier.close() 
     except IOError as e: 
-         print ("err n "+str(e.errno) 
-             +" lors de l'écriture des fichiers de paires") 
+         #~ print ("err n "+str(e.errno) lors de l'écriture des fichiers de paires") 
+         print ("err n°{} lors de l'écriture du fichier de paires".format(e.errno))
 
 # CLI
 
@@ -109,7 +113,8 @@ def helpParser():
     parser.add_argument('--repIn', action='store_true',
                         help='chemin du dossier "lexiques"') 
     parser.add_argument('--repOut', action='store_true',
-                        help='chemin du dossier "phonemes",ce dossier est généré par le programme s\'il n\'existe pas') 
+                        help='chemin du dossier "phonemes",'
+                        +'ce dossier est généré par le programme s\'il n\'existe pas') 
     args = parser.parse_args() 
     
 # recuperation des donées de config
