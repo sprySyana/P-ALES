@@ -43,33 +43,18 @@ def extractPairs(repIn,repOut):
             language = m.group(1)
             # Parcours du lexique phonétisé
             for line in lexPho:
-                word,phono = line.split("\t")
+                # ~ word,phono = line.split("\t")
                 # ~ print ("le mot "+word+" se prononce "+phono)
-                print ("\n--------------------- "+phono)
-                i=0
-                while i < (len(phono)-1):
-                    if (phono[i+1] != "\n"):
-                        # On traite l'élément courant
-                        # Cas des voyelles nasales en deux caractères API
-                        if (phono[i] == "ɔ" or phono[i] == "ɑ" 
-                                or phono[i] == "ɛ") and (phono[i+1] == "̃"):
-                            courant = phono[i] + phono[i+1]
-                            i += 1
-                        # Cas normal
-                        elif (phono[i] != "̃"):
-                            courant = phono[i]
-                        # On traite ensuite l'élément suivant
-                        # Cas des voyelles nasales (2 caractères API)
-                        if (phono[i+1] == "ɔ" or phono[i+1] == "ɑ" 
-                            or phono[i+1] == "ɛ") and (phono[i+2] == "̃"):
-                            suivant = phono[i+1] + phono[i+2]
-                            i += 1
-                        # Cas normal : on vérifie qu'il y a bien un élément suivant
-                        elif phono[i+1] != "\n":
-                            suivant = phono[i+1]
+                # ~ print ("\n--------------------- "+phono)
+                phono = line.split(" ")
+                print (phono)
+                for i in range(0,len(phono)-2):
+                    if (phono[i] != "\n"):
+                        courant = phono[i]
+                        suivant = phono[i+1]
                         # On forme les paires
                         print ("paire : "+courant+" et "+suivant)
-                        paire = courant+suivant
+                        paire = courant+" "+suivant
                         phoneme = courant
                         # Ajout de la paire au dictionnaire
                         # Si la paire ne figure pas encore dans le dictionnaire
@@ -81,7 +66,6 @@ def extractPairs(repIn,repOut):
                             dicPairs[paire] += 1
                         if courant not in listP:
                             listP.append(courant)
-                    i+=1
             lexPho.close()
         except IOError as e:
             #~ print ("err n "+str(e.errno)+" lors de la lecture") 
