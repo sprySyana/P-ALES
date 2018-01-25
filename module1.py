@@ -100,20 +100,38 @@ def extractPairs(repIn,repOut):
 # CLI
 def helpParser():
     parser = argparse.ArgumentParser(description='extraction tableau [paire.: fréquence]') 
-    parser.add_argument('--repIn', action='store_true',
+    parser.add_argument('--repIn', type=str, required=True,
                         help='chemin du dossier "lexiques"') 
-    parser.add_argument('--repOut', action='store_true',
+    parser.add_argument('--repOut', type=str,
                         help='chemin du dossier "phonemes",'
                         +'ce dossier est généré par le programme s\'il n\'existe pas') 
     args = parser.parse_args() 
     
 # récupération des données de config
-repIn = config.repIn
-repOut = config.repOut
+def config1():
+    lg = input("choose langage 'fr' or 'en' : ")
+    rep = os.getcwd()
+    if (lg == "fr"):
+        print("Chemin d'acces à votre dossier de travail :")
+    else:
+        print("Path of working folder :")
+    print(rep,"\n")
+    repIn = os.path.join(rep, "lexiques")
+    if (lg=="fr"):
+        print("Chemin attendu pour le dossier 'lexiques' :")
+    else:
+        print("Expected path for 'lexiques' folder :")
+    print(repIn,"\n")
+    repOut = os.path.join(rep, "phonemes")
+    if (lg=="fr"):
+        print("Chemin pour le dossier 'phonemes' qui est généré automatiquement :")
+    else:
+        print("Path for the auto-generated folder 'phonemes' :")
+    print(repOut,"\n") 
 
 # Appel des fonctions
 helpParser()
-print('les chemins sont modifiables dans "config.py"\n')
+config1()
 
 extractPairs(repIn,repOut)
 
