@@ -112,7 +112,7 @@ def helpParser():
 
 # Appel des fonctions
 helpParser()
-config1()
+#~ config1()    # Default paths inserted in CLI
 
 extractPairs(repIn,repOut)
 
