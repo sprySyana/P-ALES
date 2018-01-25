@@ -109,6 +109,8 @@ def helpParser():
                         help='chemin du dossier "phonemes",'
                         +'ce dossier est généré par le programme s\'il n\'existe pas') 
     args = parser.parse_args() 
+    repIn = args.repIn
+    repOut = args.repOut
 
 # Appel des fonctions
 helpParser()
