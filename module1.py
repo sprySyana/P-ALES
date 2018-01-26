@@ -108,4 +108,4 @@ def helpParser():
 # Appel des fonctions
 opts = helpParser()
 
-extractPairs(repIn,repOut)
+extractPairs(opts.repIn,opts.repOut)
