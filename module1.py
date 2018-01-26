@@ -36,7 +36,7 @@ def extractPairs(repIn,repOut):
     # On ouvre les lexiques un à un
     for f in files:
         try:
-            lexPho = open(os.path.join(repIn,fichier),"r",encoding="utf8")
+            lexPho = open(os.path.join(repIn,f),"r",encoding="utf8")
             # On récupère la langue dans le nom des fichiers
             m = re.search(r'(.*)([_].*)',f)
             language = m.group(1)
