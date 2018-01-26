@@ -30,14 +30,12 @@ def extractPairs(repIn,repOut):
         # On obtient la liste des fichiers du répertoire
         files=os.listdir(repIn)
     except OSError as e:
-        # ~ ("err n "+str(e.errno)+" lors de la lecture du dossier")
         ("err n°{} lors de la lecture du dossier".format(e.errno)) 
         return False
     
     # On ouvre les lexiques un à un
     for f in files:
         try:
-            #lexPho = open(repIn+"\\"+f,"r",encoding="utf8")
             lexPho = open(os.path.join(repIn,fichier),"r",encoding="utf8")
             # On récupère la langue dans le nom des fichiers
             m = re.search(r'(.*)([_].*)',f)
@@ -68,8 +66,7 @@ def extractPairs(repIn,repOut):
                         if courant not in listP:
                             listP.append(courant)
             lexPho.close()
-        except IOError as e:
-            #~ print ("err n "+str(e.errno)+" lors de la lecture") 
+        except IOError as e: 
             print ("err n°{} lors de la lecture".format(e.errno))
         # On stocke la liste des phonèmes dans un fichier spécifique
         try: 
@@ -79,7 +76,6 @@ def extractPairs(repIn,repOut):
             for phoneme in listP: 
                 filePhonemes.write(phoneme+"\n") 
         except IOError as e: 
-            #~ print ("err n "+str(e.errno)+" lors de l'écriture") 
             print ("err n°{} lors de l'écriture".format(e.errno))
     del(listP[:])
     try:
@@ -94,8 +90,6 @@ def extractPairs(repIn,repOut):
             # ~ print ("paire {0} (fréquence : {1})".format(key, value))
         filePairs.close()
     except IOError as e:
-        #print ("err n "+str(e.errno)
-        #    +" lors de l'écriture des fichiers de paires")
         print ("err n°{} lors de l'écriture du fichier de paires".format(e.errno))
 
 # CLI
@@ -114,8 +108,5 @@ def helpParser():
 
 # Appel des fonctions
 helpParser()
-#~ config1()    # Default paths inserted in CLI
 
 extractPairs(repIn,repOut)
-
-
