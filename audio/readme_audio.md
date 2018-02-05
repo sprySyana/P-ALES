@@ -1,3 +1,4 @@
 # audio
-folder for the wav files
-files used in svg 'table' to listen to the phonem
+folder for the wav files  
+one folder per langage treated  
+files used in the web interface to listen to the phonem
