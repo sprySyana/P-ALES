@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<?xml-stylesheet type="text/css" href="style.css"?><?xml-stylesheet type="text/css" href="Xsampa-API.css"?><svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="700"
+   height="310"
+   viewBox="0 0 700.00001 310"
+   id="svg3380"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="vowels+semi_SC.svg">
+  <defs
+     id="defs3382" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9411127"
+     inkscape:cx="371.18531"
+     inkscape:cy="141.12422"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer10"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="879"
+     inkscape:window-x="0"
+     inkscape:window-y="21"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
+  <metadata
+     id="metadata3385">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-20)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="white_to_see"
+     style="opacity:0">
+    <rect
+       style="fill:#ffffff"
+       id="rect3334"
+       width="700"
+       height="310"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="boxes">
+    <rect
+       id="rect_i"
+       width="60"
+       height="30"
+       x="15"
+       y="10"
+       class="i" />
+    <rect
+       id="rect_I"
+       width="60"
+       height="30"
+       x="150"
+       y="45"
+       class="I" />
+    <rect
+       id="rect_e"
+       width="60"
+       height="30"
+       x="100"
+       y="80"
+       class="e" />
+    <rect
+       id="rect_Y"
+       width="60"
+       height="30"
+       x="215"
+       y="45"
+       class="Y" />
+    <rect
+       id="rect_E"
+       width="60"
+       height="30"
+       x="179.27559"
+       y="150"
+       class="E" />
+    <rect
+       id="rect_y"
+       width="60"
+       height="30"
+       x="80"
+       y="10"
+       class="y" />
+    <rect
+       id="rect_o_bar"
+       width="60"
+       height="30"
+       x="165"
+       y="80"
+       class="o_bar" />
+    <rect
+       id="rect_a,"
+       width="60"
+       height="30"
+       x="340"
+       y="220"
+       class="a" />
+    <rect
+       id="rect_ae"
+       width="60"
+       height="30"
+       x="275"
+       y="185"
+       class="ae" />
+    <rect
+       id="rect_oe"
+       width="60"
+       height="30"
+       x="245.20529"
+       y="150"
+       class="oe" />
+    <rect
+       id="rect_aro"
+       width="60"
+       height="30"
+       x="370"
+       y="115"
+       class="aro" />
+    <rect
+       id="rect_arobis"
+       width="60"
+       height="30"
+       x="340"
+       y="80"
+       class="arobis" />
+    <rect
+       id="rect_E_ctr"
+       width="60"
+       height="30"
+       x="340"
+       y="150"
+       class="E_ctr" />
+    <rect
+       id="rect_E_crtbis"
+       width="60"
+       height="30"
+       x="405"
+       y="150"
+       class="E_ctrbis" />
+    <rect
+       id="rect_a_low"
+       width="60"
+       height="30"
+       x="370"
+       y="185"
+       class="a_low" />
+    <rect
+       id="rect_OE"
+       width="60"
+       height="30"
+       x="405"
+       y="220"
+       class="OE" />
+    <rect
+       id="rect_O_bar"
+       width="60"
+       height="30"
+       x="405"
+       y="80"
+       class="O_bar" />
+    <rect
+       id="rect_U"
+       width="60"
+       height="30"
+       x="482"
+       y="45"
+       class="U" />
+    <rect
+       id="rect_M"
+       width="60"
+       height="30"
+       x="560"
+       y="10"
+       class="M" />
+    <rect
+       id="rect_gbis"
+       width="60"
+       height="30"
+       x="560"
+       y="80"
+       class="gbis" />
+    <rect
+       id="rect_V"
+       width="60"
+       height="30"
+       x="560"
+       y="150"
+       class="V" />
+    <rect
+       id="rect_A"
+       width="60"
+       height="30"
+       x="560"
+       y="220"
+       class="A" />
+    <rect
+       id="rect_u"
+       width="60"
+       height="30"
+       x="625"
+       y="10"
+       class="u" />
+    <rect
+       id="rect_o"
+       width="60"
+       height="30"
+       x="625"
+       y="80"
+       class="o" />
+    <rect
+       id="rect_O"
+       width="60"
+       height="30"
+       x="625"
+       y="150"
+       class="O" />
+    <rect
+       id="rect_Q"
+       width="60"
+       height="30"
+       x="625"
+       y="220"
+       class="Q" />
+    <rect
+       id="rect_i_bar"
+       width="60"
+       height="30"
+       x="340"
+       y="10"
+       class="i_bar" />
+    <rect
+       id="rect_u_bar"
+       width="60"
+       height="30"
+       x="405"
+       y="10"
+       class="u_bar" />
+    <rect
+       id="rect_j"
+       width="60"
+       height="30"
+       x="15"
+       y="270"
+       class="j" />
+    <rect
+       id="rect_H"
+       width="60"
+       height="30"
+       x="80"
+       y="270"
+       class="H" />
+    <rect
+       id="rect_w"
+       width="60"
+       height="30"
+       x="625"
+       y="270"
+       class="w" />
+  </g>
+</svg>
