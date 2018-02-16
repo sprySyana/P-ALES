@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<?xml-stylesheet type="text/css" href="style.css"?><svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="420mm"
+   height="297mm"
+   viewBox="0 0 1488.189 1052.3622"
+   id="svg3344"
+   version="1.1"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="consonants.svg">
+  <defs
+     id="defs3346" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000002"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.4365625"
+     inkscape:cx="793.70079"
+     inkscape:cy="561.25984"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1199"
+     inkscape:window-height="768"
+     inkscape:window-x="-5"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="mm" />
+  <metadata
+     id="metadata3349">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-3.4645669e-6)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="white-to-see"
+     style="opacity:0"
+     transform="translate(0,308.26772)">
+    <path
+       style="fill:#ffffff"
+       d="m 0,-308.26772 0,1052.3622 1488.189,0 0,-1052.3622 -1488.189,0 z"
+       id="rect3353"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="cells"
+     transform="translate(0,308.26772)"
+     sodipodi:insensitive="true">
+	<rect
+	   id="rect_p"
+       width="60"
+       height="30"
+       x="16"
+       y="-250"
+       class="p" />
+	<rect
+	   id="rect_b"
+       width="60"
+       height="30"
+       x="80"
+       y="-250"
+       class="b" />
+	<rect
+	   id="rect_f"
+       width="60"
+       height="30"
+       x="37"
+       y="461"
+       class="f" />
+	<rect
+	   id="rect_m"
+       width="60"
+       height="30"
+       x="80"
+       y="-105"
+       class="m" />
+	<rect
+	   id="rect_t"
+       width="60"
+       height="30"
+       x="387"
+       y="-250"
+       class="t" />
+	<rect
+	   id="rect_d"
+       width="60"
+       height="30"
+       x="451"
+       y="-250"
+       class="d" />
+	<rect
+	   id="rect_t_h"
+       width="60"
+       height="30"
+       x="387"
+       y="-205"
+       class="t_h" />
+	<rect
+	   id="rect_s"
+       width="60"
+       height="30"
+       x="408"
+       y="209"
+       class="s" />
+	<rect
+	   id="rect_s_h"
+       width="60"
+       height="30"
+       x="408"
+       y="260"
+       class="s_h" />
+	<rect
+	   id="rect_n"
+       width="60"
+       height="30"
+       x="451"
+       y="-117"
+       class="n" />
+	<rect
+	   id="rect_r"
+       width="60"
+       height="30"
+       x="451"
+       y="-73"
+       class="r" />
+	<rect
+	   id="rect_l"
+       width="60"
+       height="30"
+       x="472"
+       y="411"
+       class="l" />
+	<rect
+	   id="rect_t_retr"
+       width="60"
+       height="30"
+       x="758"
+       y="-250"
+       class="t_retr" />
+	<rect
+	   id="rect_s_retr"
+       width="60"
+       height="30"
+       x="758"
+       y="39"
+       class="s_retr" />
+	<rect
+	   id="rect_s_retr_h"
+       width="60"
+       height="30"
+       x="758"
+       y="90"
+       class="s_retr_h" />
+	<rect
+	   id="rect_sbis"
+       width="60"
+       height="30"
+       x="779"
+       y="310"
+       class="sbis" />
+	<rect
+	   id="rect_z_retr"
+       width="60"
+       height="30"
+       x="822"
+       y="14"
+       class="z_retr" />
+	<rect
+	   id="rect_H"
+       width="60"
+       height="30"
+       x="822"
+       y="512"
+       class="H" />
+	<rect
+	   id="rect_j"
+       width="60"
+       height="30"
+       x="1029"
+       y="310"
+       class="j" />
+	<rect
+	   id="rect_k"
+       width="60"
+       height="30"
+       x="1129"
+       y="-250"
+       class="k" />
+	<rect
+	   id="rect_g"
+       width="60"
+       height="30"
+       x="1193"
+       y="-250"
+       class="g" />
+	<rect
+	   id="rect_k_h"
+       width="60"
+       height="30"
+       x="1129"
+       y="-205"
+       class="k_h" />
+	<rect
+	   id="rect_x"
+       width="60"
+       height="30"
+       x="1129"
+       y="-67"
+       class="x" />
+	<rect
+	   id="rect_N"
+       width="60"
+       height="30"
+       x="1193"
+       y="-161"
+       class="N" />
+	<rect
+	   id="rect_w"
+       width="60"
+       height="30"
+       x="1214"
+       y="241"
+       class="w" />
+  </g>
+</svg>
