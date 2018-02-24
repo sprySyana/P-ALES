@@ -1,0 +1,249 @@
+/* CSS interface web */
+body{font-size:16px; font-family:Verdana; color:white; background-color: #232323;}
+/* #0B1616 */
+h1{color:white; font-size:300%;}
+
+div{width:100%; height:1000px;}
+
+nav{display:block; height:150px; margin:0; padding:20px 0; border-top:1px solid #DEDEDE; clear:both;}
+nav ul{margin:0; padding:0; list-style:none;}
+nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+
+ul{list-style:none;}
+
+.nav{height:150px;}
+.resume{width:160%;}
+.infos{text-align:right;}
+
+a{color:#81DAF5; text-decoration:underline;}
+
+em{font-size:12px;}
+
+p{margin-left:20px;}
+
+.tab{width:1000px;border:1;}
+
+/* CSS SVGs */
+svg {background-color: black;}
+
+.null {fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1} /*rectangle vide*/
+/* X-SAMPA   color   API   (Information) */
+.a	{fill:#5e9261}	/* a */
+.b	{fill:#77747c}	/* b */
+.b_inj	{fill:#000000}	/* ɓ */
+.c	{fill:#000000}	/* c */
+.d	{fill:#66569a}	/* d */
+.d_retr	{fill:#000000}	/* ɖ */    /* corrected "d`" to "d_retr" */
+.d_inj	{fill:#000000}	/* ɗ */
+.e	{fill:#458567}	/* e */
+.f	{fill:#74878b}	/* f */
+.g	{fill:#697a81}	/* g */
+.g_inj	{fill:#000000}	/* ɠ */
+.h	{fill:#617b76}	/* h */
+.hbis	{fill:#000000}	/* ɦ */    /* corrected "h\" to "h2" */
+.i	{fill:#529053}	/* i */
+.j	{fill:#5a5d6d}	/* j */
+.jbis	{fill:#e645ab}	/* ʝ */    /* corrected "j\" to "j2" */
+.k	{fill:#4269a1}	/* k */
+.l	{fill:#6c6074}	/* l */
+.l_retr	{fill:#000000}	/* ɭ */    /* corrected "l`" to "l_retr" */
+.lbis	{fill:#000000}	/* ɺ */    /* corrected "l\" to "l2" */
+.m	{fill:#6b6595}	/* m */
+.n	{fill:#957383}	/* n */
+.n_retr	{fill:#000000}	/* ɳ */    /* corrected "n`" to "n_retr" */
+.o	{fill:#785a54}	/* o */
+.p	{fill:#667077}	/* p */
+.pbis	{fill:#52d169}	/* ɸ */    /* corrected "p\" to "p2" */
+.q	{fill:#000000}	/* q */
+.r	{fill:#5b785c}	/* r */
+.r_retr	{fill:#000000}	/* ɽ */    /* corrected "`" to "_retr" */
+.rbis	{fill:#fe6017}	/* ɹ */    /* corrected */
+.rbis_retr	{fill:#000000}	/* ɻ */    /* corrected */
+.s	{fill:#8b6ba9}	/* s */
+.s_retr	{fill:#6a975a}	/* ʂ */    /* corrected */
+.sbis	{fill:#4d6898}	/* ɕ */    /* corrected  */
+.t	{fill:#693d8b}	/* t */
+.t_retr	{fill:#328aa3}	/* ʈ */    /* corrected */	
+.u	{fill:#5e797e}	/* u */
+.v	{fill:#54698c}	/* v */
+.vbis	{fill:#000000}	/* ʋ */    /* corrected */
+.w	{fill:#707b86}	/* w */
+.x	{fill:#9a4f7e}	/* x */
+.xbis	{fill:#000000}	/* ɧ */    /* corrected */
+.y	{fill:#7e8177}	/* y */
+.z	{fill:#799797}	/* z */
+.z_retr	{fill:#a44781}	/* ʐ */    /* corrected */
+.zbis	{fill:#397252}	/* ʑ */    /* corrected */
+.A	{fill:#52a776}	/* ɑ */
+.B	{fill:#bea29c}	/* β */
+.Bbis	{fill:#000000}	/* ʙ */    /* corrected */
+.C	{fill:#c94660}	/* ç */
+.D	{fill:#527e8f}	/* ð */
+.E	{fill:#3b7781}	/* ɛ */
+.F	{fill:#000000}	/* ɱ */
+.G	{fill:#a597ab}	/* ɣ */
+.Gbis	{fill:#000000}	/* ɢ */    /* corrected */
+.Gbis_inj	{fill:#000000}	/* ʛ */    /* corrected */
+.H	{fill:#576583}	/* ɥ */
+.Hbis	{fill:#000000}	/* ʜ */    /* corrected */
+.I	{fill:#5c75a7}	/* ɪ */
+.Ibis	{fill:#445c5d}	/* ᵻ */   /* non-rounded central high "lax" vowel (not in IPA) */
+.J	{fill:#609986}	/* ɲ */
+.Jbis	{fill:#000000}	/* ɟ */    /* corrected */
+.Jbis_inj	{fill:#000000}	/* ʄ */    /* corrected */
+.K	{fill:#000000}	/* ɬ */
+.Kbis	{fill:#000000}	/* ɮ */    /* corrected */
+.L	{fill:#e773bc}	/* ʎ */
+.Lbis	{fill:#000000}	/* ʟ */    /* corrected */
+.M	{fill:#51813f}	/* ɯ */
+.Mbis	{fill:#67744a}	/* ɰ */    /* corrected */
+.N	{fill:#6e6c7e}	/* ŋ */
+.Nbis	{fill:#000000}	/* ɴ */    /* corrected */
+.O	{fill:#569183}	/* ɔ */
+.P	{fill:#000000}	/* ʋ */
+.Q	{fill:#000000}	/* ɒ */
+.R	{fill:#987bbd}	/* ʁ */
+.Rbis	{fill:#000000}	/* ʀ */    /* corrected */
+.S	{fill:#586d83}	/* ʃ */
+.T	{fill:#599c83}	/* θ */
+.U	{fill:#5ea48a}	/* ʊ */
+.Ubis	{fill:#000000}	/* ᵿ */    /* corrected */
+.V	{fill:#728569}	/* ʌ */
+.Vbis	{fill:#000000}	/* ⱱ */
+.W	{fill:#000000}	/* ʍ */
+.X	{fill:#000000}	/* χ */
+.Xbis	{fill:#000000}	/* ħ */    /* corrected */
+.Y	{fill:#000000}	/* ʏ */
+.Z	{fill:#777d91}	/* ʒ */
+.aro	{fill:#826382}	/* ə */    /* corrected "@" to "aro(base)" */
+.arobis	{fill:#000000}	/* ɘ */
+.ae	{fill:#54978c}	/* æ */    /* modified */
+.u_bar	{fill:#41a1a1}	/* ʉ */    /* modified */
+.i_bar	{fill:#5f9484}	/* ɨ */    /* v 1 */
+.o_bar	{fill:#445f57}	/* ø */    /* v 2 */
+.E_ctr	{fill:#000000}	/* ɜ */    /* v 3 */
+.E_ctrbis	{fill:#000000}	/* ɞ */    /* v 3bis */
+.r_trill	{fill:#a277b4}	/* ɾ */    /* c 4 */
+.l_tld	{fill:#487a7b}	/* ɫ */    /* c 5 */
+.a_low	{fill:#d5d9de}	/* ɐ */    /* v 6 */
+.gbis	{fill:#8d698a}	/* ɤ */    /* v 7 */
+.O_bar	{fill:#000000}	/* ɵ */    /* v 8 */
+.oe	{fill:#7d5b82}	/* œ */
+.OE	{fill:#000000}	/* ɶ */    /* modified */
+.glo	{fill:#6a846d}	/* ʔ */    /* modified */
+.globis	{fill:#000000}	/* ʕ */    /* modified + corrected */
+.glo_bar	{fill:#000000}	/* ʡ */    /* modified */
+.globis_bar	{fill:#000000}	/* ʢ */    /* modified + corrected */
+.clk_0	{fill:#000000}	/* ʘ */    /* clicks */    /* all modified */
+.clk	{fill:#000000}	/* ! */
+.clk_dt	{fill:#000000}	/* | */
+.clk_alv	{fill:#000000}	/* || */
+.clk_pal	{fill:#000000}	/* ǂ */
+.o_nas	{fill:#000000}	/* õ */    /* nasales */
+.oe_nas	{fill:#429e9f}	/* œ̃ */
+.E_nas	{fill:#746283}	/* ɛ̃ */
+.O_nas	{fill:#79548a}	/* ɔ̃ */
+.a_nas	{fill:#99a08e}	/* ã */
+.p_dent	{fill:#000000}	/* p̪ */    /* dentales */
+.d_dent	{fill:#000000}	/* b̪ */
+.t_dent	{fill:#000000}	/* t̪ */
+.d_dent	{fill:#000000}	/* d̪ */
+.n_dent	{fill:#000000}	/* n̪ */
+.r_trill_dent	{fill:#000000}	/* ɾ̪ */
+.l_dent	{fill:#000000}	/* l̪ */
+.p_h	{fill:#667f89}	/* pʰ */    /* aspirées */
+.t_dent_h	{fill:#000000}	/* t̪ʰ */
+.t_h	{fill:#547189}	/* tʰ */
+.t_retr_h	{fill:#000000}	/* ʈʰ */
+.c_h	{fill:#000000}	/* cʰ */
+.k_h	{fill:#758296}	/* kʰ */
+.q_h	{fill:#000000}	/* qʰ */
+.pbis_h	{fill:#000000}	/* ɸʰ */
+.f_h	{fill:#000000}	/* fʰ */
+.T_h	{fill:#000000}	/* θʰ */
+.s_h	{fill:#b963ac}	/* sʰ */
+.S_h	{fill:#000000}	/* ʃʰ */
+.s_retr_h	{fill:#c08a2c}	/* ʂʰ */
+.sbis_h	{fill:#000000}	/* ɕʰ */
+.C_h	{fill:#000000}	/* çʰ */
+.x_h	{fill:#000000}	/* xʰ */
+.X_h	{fill:#000000}	/* χʰ */
+.mp	{fill:#000000}	/* m͡p */    /* liées */
+.mb	{fill:#000000}	/* m͡b */
+.mpbis	{fill:#000000}	/* m͡ɸ */
+.mB	{fill:#000000}	/* m͡β */
+.Ff	{fill:#000000}	/* ɱ͡f */
+.Fv	{fill:#000000}	/* ɱ͡v */
+.kp	{fill:#000000}	/* k͡p */
+.Nkp	{fill:#000000}	/* ᵑk͡p */
+.gb	{fill:#000000}	/* ɡ͡b */
+.Ngb	{fill:#000000}	/* ᵑɡ͡b */
+.nt_dent	{fill:#000000}	/* n͡t̪ */
+.nd_dent	{fill:#000000}	/* n͡d̪ */
+.nt	{fill:#000000}	/* n͡t */
+.nd	{fill:#000000}	/* n͡d */
+.nT	{fill:#000000}	/* n͡θ */
+.nD	{fill:#000000}	/* n͡ð */
+.ns	{fill:#000000}	/* n͡s */
+.nz	{fill:#000000}	/* n͡z */
+.nS	{fill:#000000}	/* n͡ʃ */
+.nZ	{fill:#000000}	/* n͡ʒ */
+.nt_retr	{fill:#000000}	/* ɳ͡ʈ */
+.nd_retr	{fill:#000000}	/* ɳ͡ɖ */
+.Jc	{fill:#000000}	/* ɲ͡c */
+.JJbis	{fill:#000000}	/* ɲ͡ɟ */
+.Nk	{fill:#000000}	/* ŋ͡k */
+.Ng	{fill:#000000}	/* ŋ͡ɡ */
+.Nm	{fill:#000000}	/* ŋ͡m */
+.Nk	{fill:#000000}	/* ŋ͡k */
+.Ng	{fill:#000000}	/* ŋ͡ɡ */
+.Nbisq	{fill:#000000}	/* ɴ͡q */
+.NbisGbis	{fill:#000000}	/* ɴ͡ɢ */
+.ppbis	{fill:#000000}	/* p͡ɸ */
+.pf	{fill:#000000}	/* p͡f */
+.bB	{fill:#000000}	/* b͡β */
+.bv	{fill:#000000}	/* b͡v */
+.tT	{fill:#000000}	/* t͡θ */
+.ts	{fill:#3b8c46}	/* t͡s */
+.tS	{fill:#000000}	/* t͡ʃ */
+.tsbis	{fill:#000000}	/* t͡ɕ */
+.ts_h	{fill:#000000}	/* t͡sʰ */
+.tsbis_h	{fill:#000000}	/* t͡ɕʰ */
+.tK	{fill:#000000}	/* t͡ɬ */
+.ts_retr	{fill:#000000}	/* ʈ͡ʂ */
+.ts_retr_h	{fill:#000000}	/* ʈ͡ʂʰ */
+.dD	{fill:#000000}	/* d͡ð */
+.dz	{fill:#000000}	/* d͡z */
+.dZ	{fill:#000000}	/* d͡ʒ */
+.dzbis	{fill:#000000}	/* d͡ʑ */
+.dKbis	{fill:#000000}	/* d͡ɮ */
+.dz_retr	{fill:#000000}	/* ɖ͡ʐ */
+.cC	{fill:#000000}	/* c͡ç */
+.Jbisjbis	{fill:#000000}	/* ɟ͡ʝ */
+.kx	{fill:#000000}	/* k͡x */
+.gG	{fill:#000000}	/* ɡ͡ɣ */
+.GbisR	{fill:#000000}	/* ɢ͡ʁ */
+.qX	{fill:#000000}	/* q͡χ */
+.glo_barHbis	{fill:#000000}	/* ʡ͡ʜ */
+.gloh	{fill:#000000}	/* ʔ͡h */
+.k_lab	{fill:#000000}	/* kʷ */    /* labialisation */
+.g_lab	{fill:#000000}	/* gʷ */
+.N_lab	{fill:#000000}	/* ŋʷ */
+.x_lab	{fill:#000000}	/* xʷ */
+.G_lab	{fill:#000000}	/* ɣʷ */
+.B_o	{fill:#000000}	/* β̞ */    /* cas speciaux */
+.D_o	{fill:#000000}	/* ð̞ */
+.l_0	{fill:#000000}	/* l̥ */
+.b_inj_0	{fill:#000000}	/* ɓ̥ */
+.d_inj_0	{fill:#000000}	/* ɗ̥ */
+.Gbis_inj_0	{fill:#000000}	/* ʛ̥ */
+.Jbis_inj_rd	{fill:#000000}	/* ʄ̊ */    /* "rond-en-chef" */
+.g_inj_rd	{fill:#000000}	/* ɠ̊ */
+.iaro	{fill:#000000}	/* iə */    /* diphtongs */
+.Uaro	 	{fill:#000000}	/* ʊə */
+.aroU	{fill:#000000}	/* əʊ */
+.Oi	{fill:#b14c3e}	/* ɔi */
+.ei	{fill:#465085}	/* ei */
+.earo	{fill:#000000}	/* eə */
+.Ai	{fill:#000000}	/* ɑi */
+.aU	{fill:#636f6f}	/* aʊ */
