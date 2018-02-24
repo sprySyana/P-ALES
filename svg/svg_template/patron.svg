@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<?xml-stylesheet type="text/css" href="style.css"?><svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5936.3584"
+   height="4827.3735"
+   viewBox="0 0 1570.6616 1277.2426"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="complet_groupes.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.11973385"
+     inkscape:cx="2968.1791"
+     inkscape:cy="2413.6867"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:measure-start="0,1587.4"
+     inkscape:measure-end="1.86533,714.424"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="2.7"
+     fit-margin-left="0"
+     fit-margin-right="2.5"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="fond"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,134)"
+     style="opacity:1"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="blanc"
+     style="opacity:0"
+     transform="translate(0,11.672478)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;stroke-width:1.42345881"
+       id="rect_white"
+       width="1570"
+       height="1276.5282"
+       x="0"
+       y="-10.958103" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="cases"
+     style="opacity:1"
+     transform="translate(0,11)"
+     sodipodi:insensitive="true">
+    <g
+       id="g_diphtongs">
+      <rect
+         class="Iaro"
+         y="80"
+         x="504"
+         height="30"
+         width="60"
+         id="rect_Iaro" />
+      <rect
+         class="earo"
+         y="150"
+         x="524"
+         height="30"
+         width="60"
+         id="rect_earo" />
+      <rect
+         class="eI"
+         y="115"
+         x="480"
+         height="30"
+         width="60"
+         id="rect_eI" />
+      <rect
+         class="aI"
+         y="185"
+         x="609"
+         height="30"
+         width="60"
+         id="rect_aI" />
+      <rect
+         class="aU"
+         y="185"
+         x="674"
+         height="30"
+         width="60"
+         id="rect_aU" />
+      <rect
+         class="aroU"
+         y="115"
+         x="642"
+         height="30"
+         width="60"
+         id="rect_aroU" />
+      <rect
+         class="Uaro"
+         y="80"
+         x="724"
+         height="30"
+         width="60"
+         id="rect_Uaro" />
+      <rect
+         class="OI"
+         y="115"
+         x="769"
+         height="30"
+         width="60"
+         id="rect_OI" />
+      <rect
+         class="wa"
+         y="45"
+         x="642"
+         height="30"
+         width="60"
+         id="rect_wa" />
+      <rect
+         class="Hi"
+         y="45"
+         x="439"
+         height="30"
+         width="60"
+         id="rect_Hi" />
+      <rect
+         class="wE_nas"
+         y="10"
+         x="439"
+         height="30"
+         width="60"
+         id="rect_wE_nas" />
+    </g>
+    <g
+       id="g_consonants">
+      <rect
+         class="p"
+         y="356"
+         x="63"
+         height="30"
+         width="60"
+         id="rect_p" />
+      <rect
+         class="b"
+         y="356"
+         x="127"
+         height="30"
+         width="60"
+         id="rect_b" />
+      <rect
+         class="p_h"
+         y="401"
+         x="63"
+         height="30"
+         width="60"
+         id="rect_p_h" />
+      <rect
+         class="mp"
+         y="451"
+         x="63"
+         height="30"
+         width="60"
+         id="rect_mp" />
+      <rect
+         class="ppbis"
+         y="602"
+         x="63"
+         height="30"
+         width="60"
+         id="rect_ppbis" />
+      <rect
+         class="mpbis"
+         y="652"
+         x="63"
+         height="30"
+         width="60"
+         id="rect_mpbis" />
+      <rect
+         class="pbis"
+         y="702"
+         x="63"
+         height="30"
+         width="60"
+         id="rect_pbis" />
+      <rect
+         class="pbis_h"
+         y="746"
+         x="63"
+         height="30"
+         width="60"
+         id="rect_pbis_h" />
+      <rect
+         class="p_dent"
+         y="815"
+         x="84"
+         height="30"
+         width="60"
+         id="rect_p_dent" />
+      <rect
+         class="pf"
+         y="967"
+         x="84"
+         height="30"
+         width="60"
+         id="rect_pf" />
+      <rect
+         class="Ff"
+         y="1017"
+         x="84"
+         height="30"
+         width="60"
+         id="rect_Ff" />
+      <rect
+         class="f"
+         y="1067"
+         x="84"
+         height="30"
+         width="60"
+         id="rect_f" />
+      <rect
+         class="f_h"
+         y="1118"
+         x="84"
+         height="30"
+         width="60"
+         id="rect_f_h" />
+      <rect
+         class="B_inj_o"
+         y="1168"
+         x="106"
+         height="30"
+         width="60"
+         id="rect_B_inj_o" />
+      <rect
+         class="Clk_o"
+         y="1219"
+         x="106"
+         height="30"
+         width="60"
+         id="rect_Clk_o" />
+      <rect
+         class="mb"
+         y="451"
+         x="127"
+         height="30"
+         width="60"
+         id="rect_mb" />
+      <rect
+         class="m"
+         y="501"
+         x="127"
+         height="30"
+         width="60"
+         id="rect_m" />
+      <rect
+         class="Bbis"
+         y="-54"
+         x="127"
+         height="30"
+         width="60"
+         id="rect_Bbis" />
+      <rect
+         class="bB"
+         y="602"
+         x="127"
+         height="30"
+         width="60"
+         id="rect_bB" />
+      <rect
+         class="mB"
+         y="652"
+         x="127"
+         height="30"
+         width="60"
+         id="rect_mB" />
+      <rect
+         class="B"
+         y="702"
+         x="127"
+         height="30"
+         width="60"
+         id="rect_B" />
+      <rect
+         class="B_o"
+         y="746"
+         x="127"
+         height="30"
+         width="60"
+         id="rect_B_o" />
+      <rect
+         class="b_dent"
+         y="815"
+         x="148"
+         height="30"
+         width="60"
+         id="rect_b_dent" />
+      <rect
+         class="F"
+         y="866"
+         x="148"
+         height="30"
+         width="60"
+         id="rect_F" />
+      <rect
+         class="Vbis"
+         y="916"
+         x="148"
+         height="30"
+         width="60"
+         id="rect_Vbis" />
+      <rect
+         class="bv"
+         y="967"
+         x="148"
+         height="30"
+         width="60"
+         id="rect_bv" />
+      <rect
+         class="Fv"
+         y="1017"
+         x="148"
+         height="30"
+         width="60"
+         id="rect_Fv" />
+      <rect
+         class="v"
+         y="1067"
+         x="148"
+         height="30"
+         width="60"
+         id="rect_v" />
+      <rect
+         class="vbis"
+         y="1118"
+         x="148"
+         height="30"
+         width="60"
+         id="rect_vbis" />
+      <rect
+         class="b_inj"
+         y="1168"
+         x="170"
+         height="30"
+         width="60"
+         id="rect_b_inj" />
+      <rect
+         class="kp"
+         y="356"
+         x="248"
+         height="30"
+         width="60"
+         id="rect_kp" />
+      <rect
+         class="gb"
+         y="356"
+         x="313"
+         height="30"
+         width="60"
+         id="rect_gb" />
+      <rect
+         class="Nkp"
+         y="451"
+         x="248"
+         height="30"
+         width="60"
+         id="rect_Nkp" />
+      <rect
+         class="t_dent"
+         y="664"
+         x="270"
+         height="30"
+         width="60"
+         id="rect_t_dent" />
+      <rect
+         class="t_dent_h"
+         y="715"
+         x="270"
+         height="30"
+         width="60"
+         id="rect_t_dent_h" />
+      <rect
+         class="nt_dent"
+         y="765"
+         x="270"
+         height="30"
+         width="60"
+         id="rect_nt_dent" />
+      <rect
+         class="tT"
+         y="916"
+         x="270"
+         height="30"
+         width="60"
+         id="rect_tT" />
+      <rect
+         class="nT"
+         y="967"
+         x="270"
+         height="30"
+         width="60"
+         id="rect_nT" />
+      <rect
+         class="T"
+         y="1017"
+         x="270"
+         height="30"
+         width="60"
+         id="rect_T" />
+      <rect
+         class="T_h"
+         y="1067"
+         x="270"
+         height="30"
+         width="60"
+         id="rect_T_h" />
+      <rect
+         class="clk_dt"
+         y="1168"
+         x="291"
+         height="30"
+         width="60"
+         id="rect_clk_dt" />
+      <rect
+         class="Ngb"
+         y="451"
+         x="313"
+         height="30"
+         width="60"
+         id="rect_Ngb" />
+      <rect
+         class="Nm"
+         y="501"
+         x="313"
+         height="30"
+         width="60"
+         id="rect_Nm" />
+      <rect
+         class="d_dent"
+         y="664"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_d_dent" />
+      <rect
+         class="nd_dent"
+         y="765"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_nd_dent" />
+      <rect
+         class="n_retr"
+         y="815"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_n_retr" />
+      <rect
+         class="r_trill_dent"
+         y="866"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_r_trill_dent" />
+      <rect
+         class="dD"
+         y="916"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_dD" />
+      <rect
+         class="nD"
+         y="967"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_nD" />
+      <rect
+         class="D"
+         y="1017"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_D" />
+      <rect
+         class="D_o"
+         y="1067"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_D_o" />
+      <rect
+         class="l_dent"
+         y="1118"
+         x="334"
+         height="30"
+         width="60"
+         id="rect_l_dent" />
+      <rect
+         class="t"
+         y="356"
+         x="434"
+         height="30"
+         width="60"
+         id="rect_t" />
+      <rect
+         class="d"
+         y="356"
+         x="498"
+         height="30"
+         width="60"
+         id="rect_d" />
+      <rect
+         class="t_h"
+         y="401"
+         x="434"
+         height="30"
+         width="60"
+         id="rect_t_h" />
+      <rect
+         class="nt"
+         y="475"
+         x="434"
+         height="30"
+         width="60"
+         id="rect_nt" />
+      <rect
+         class="ts"
+         y="620"
+         x="434"
+         height="30"
+         width="60"
+         id="rect_ts" />
+      <rect
+         class="ns"
+         y="765"
+         x="455"
+         height="30"
+         width="60"
+         id="rect_ns" />
+      <rect
+         class="s"
+         y="815"
+         x="455"
+         height="30"
+         width="60"
+         id="rect_s" />
+      <rect
+         class="s_h"
+         y="866"
+         x="455"
+         height="30"
+         width="60"
+         id="rect_s_h" />
+      <rect
+         class="K"
+         y="916"
+         x="455"
+         height="30"
+         width="60"
+         id="rect_K" />
+      <rect
+         class="L_o"
+         y="1017"
+         x="455"
+         height="30"
+         width="60"
+         id="rect_L_o" />
+      <rect
+         class="D_inj_o"
+         y="1168"
+         x="477"
+         height="30"
+         width="60"
+         id="rect_D_inj_o" />
+      <rect
+         class="clk_alv"
+         y="1219"
+         x="477"
+         height="30"
+         width="60"
+         id="rect_clk_alv" />
+      <rect
+         class="nd"
+         y="475"
+         x="498"
+         height="30"
+         width="60"
+         id="rect_nd" />
+      <rect
+         class="n"
+         y="489"
+         x="498"
+         height="30"
+         width="60"
+         id="rect_n" />
+      <rect
+         class="r"
+         y="533"
+         x="498"
+         height="30"
+         width="60"
+         id="rect_r" />
+      <rect
+         class="r_trill"
+         y="577"
+         x="498"
+         height="30"
+         width="60"
+         id="rect_r_trill" />
+      <rect
+         class="lbis"
+         y="620"
+         x="451"
+         height="30"
+         width="60"
+         id="rect_lbis" />
+      <rect
+         class="dz"
+         y="664"
+         x="498"
+         height="30"
+         width="60"
+         id="rect_dz" />
+      <rect
+         class="nz"
+         y="765"
+         x="472"
+         height="30"
+         width="60"
+         id="rect_nz" />
+      <rect
+         class="z"
+         y="815"
+         x="519"
+         height="30"
+         width="60"
+         id="rect_z" />
+      <rect
+         class="Kbis"
+         y="916"
+         x="519"
+         height="30"
+         width="60"
+         id="rect_Kbis" />
+      <rect
+         class="rbis"
+         y="967"
+         x="519"
+         height="30"
+         width="60"
+         id="rect_rbis" />
+      <rect
+         class="l"
+         y="1017"
+         x="519"
+         height="30"
+         width="60"
+         id="rect_l" />
+      <rect
+         class="d_inj"
+         y="1168"
+         x="541"
+         height="30"
+         width="60"
+         id="rect_d_inj" />
+      <rect
+         class="tS"
+         y="602"
+         x="619"
+         height="30"
+         width="60"
+         id="rect_tS" />
+      <rect
+         class="nS"
+         y="765"
+         x="641"
+         height="30"
+         width="60"
+         id="rect_nS" />
+      <rect
+         class="S"
+         y="815"
+         x="641"
+         height="30"
+         width="60"
+         id="rect_S" />
+      <rect
+         class="S_h"
+         y="866"
+         x="641"
+         height="30"
+         width="60"
+         id="rect_S_h" />
+      <rect
+         class="xbis"
+         y="1118"
+         x="619"
+         height="30"
+         width="60"
+         id="rect_xbis" />
+      <rect
+         class="dZ"
+         y="602"
+         x="684"
+         height="30"
+         width="60"
+         id="rect_dZ" />
+      <rect
+         class="nZ"
+         y="765"
+         x="705"
+         height="30"
+         width="60"
+         id="rect_nZ" />
+      <rect
+         class="Z"
+         y="815"
+         x="705"
+         height="30"
+         width="60"
+         id="rect_Z" />
+      <rect
+         class="clk"
+         y="1168"
+         x="726"
+         height="30"
+         width="60"
+         id="rect_clk" />
+      <rect
+         class="t_retr"
+         y="356"
+         x="805"
+         height="30"
+         width="60"
+         id="rect_t_retr" />
+      <rect
+         class="d_retr"
+         y="356"
+         x="869"
+         height="30"
+         width="60"
+         id="rect_d_retr" />
+      <rect
+         class="t_retr_h"
+         y="401"
+         x="805"
+         height="30"
+         width="60"
+         id="rect_t_retr_h" />
+      <rect
+         class="nt_retr"
+         y="475"
+         x="805"
+         height="30"
+         width="60"
+         id="rect_nt_retr" />
+      <rect
+         class="ts_retr"
+         y="546"
+         x="805"
+         height="30"
+         width="60"
+         id="rect_ts_retr" />
+      <rect
+         class="ts_retr_h"
+         y="596"
+         x="805"
+         height="30"
+         width="60"
+         id="rect_ts_retr_h" />
+      <rect
+         class="s_retr"
+         y="645"
+         x="805"
+         height="30"
+         width="60"
+         id="rect_s_retr" />
+      <rect
+         class="s_retr_h"
+         y="696"
+         x="805"
+         height="30"
+         width="60"
+         id="rect_s_retr_h" />
+      <rect
+         class="tsbis"
+         y="765"
+         x="826"
+         height="30"
+         width="60"
+         id="rect_tsbis" />
+      <rect
+         class="tsbis_h"
+         y="815"
+         x="826"
+         height="30"
+         width="60"
+         id="rect_tsbis_h" />
+      <rect
+         class="sbis"
+         y="916"
+         x="826"
+         height="30"
+         width="60"
+         id="rect_sbis" />
+      <rect
+         class="sbis_h"
+         y="967"
+         x="826"
+         height="30"
+         width="60"
+         id="rect_sbis_h" />
+      <rect
+         class="l_tld"
+         y="1118"
+         x="805"
+         height="30"
+         width="60"
+         id="rect_l_tld" />
+      <rect
+         class="clk_pal"
+         y="1168"
+         x="848"
+         height="30"
+         width="60"
+         id="rect_clk_pal" />
+      <rect
+         class="nd_retr"
+         y="475"
+         x="869"
+         height="30"
+         width="60"
+         id="rect_nd_retr" />
+      <rect
+         class="n_retr"
+         y="489"
+         x="869"
+         height="30"
+         width="60"
+         id="rect_n_retr" />
+      <rect
+         class="r_retr"
+         y="533"
+         x="869"
+         height="30"
+         width="60"
+         id="rect_r_retr" />
+      <rect
+         class="dz_retr"
+         y="577"
+         x="869"
+         height="30"
+         width="60"
+         id="rect_dz_retr" />
+      <rect
+         class="z_retr"
+         y="620"
+         x="869"
+         height="30"
+         width="60"
+         id="rect_z_retr" />
+      <rect
+         class="rbis_retr"
+         y="664"
+         x="869"
+         height="30"
+         width="60"
+         id="rect_rbis_retr" />
+      <rect
+         class="dzbis"
+         y="765"
+         x="890"
+         height="30"
+         width="60"
+         id="rect_dzbis" />
+      <rect
+         class="zbis"
+         y="916"
+         x="890"
+         height="30"
+         width="60"
+         id="rect_zbis" />
+      <rect
+         class="c"
+         y="356"
+         x="990"
+         height="30"
+         width="60"
+         id="rect_c" />
+      <rect
+         class="Jbis"
+         y="356"
+         x="1055"
+         height="30"
+         width="60"
+         id="rect_Jbis" />
+      <rect
+         class="c_h"
+         y="401"
+         x="990"
+         height="30"
+         width="60"
+         id="rect_c_h" />
+      <rect
+         class="Jc"
+         y="451"
+         x="990"
+         height="30"
+         width="60"
+         id="rect_Jc" />
+      <rect
+         class="cC"
+         y="602"
+         x="990"
+         height="30"
+         width="60"
+         id="rect_cC" />
+      <rect
+         class="C"
+         y="765"
+         x="1012"
+         height="30"
+         width="60"
+         id="rect_C" />
+      <rect
+         class="C_h"
+         y="815"
+         x="1012"
+         height="30"
+         width="60"
+         id="rect_C_h" />
+      <rect
+         class="Jbis_inj_rd"
+         y="1168"
+         x="1033"
+         height="30"
+         width="60"
+         id="rect_Jbis_inj_rd" />
+      <rect
+         class="Jjbis"
+         y="451"
+         x="1055"
+         height="30"
+         width="60"
+         id="rect_Jjbis" />
+      <rect
+         class="J"
+         y="501"
+         x="1055"
+         height="30"
+         width="60"
+         id="rect_J" />
+      <rect
+         class="Jbisjbis"
+         y="602"
+         x="1055"
+         height="30"
+         width="60"
+         id="rect_Jbisjbis" />
+      <rect
+         class="jbis"
+         y="765"
+         x="1076"
+         height="30"
+         width="60"
+         id="rect_jbis" />
+      <rect
+         class="L"
+         y="967"
+         x="1076"
+         height="30"
+         width="60"
+         id="rect_L" />
+      <rect
+         class="Jbis_inj"
+         y="1168"
+         x="1097"
+         height="30"
+         width="60"
+         id="rect_Jbis_inj" />
+      <rect
+         class="k"
+         y="356"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_k" />
+      <rect
+         class="g"
+         y="356"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_g" />
+      <rect
+         class="k_h"
+         y="401"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_k_h" />
+      <rect
+         class="Ng"
+         y="401"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_Ng" />
+      <rect
+         class="Nk"
+         y="475"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_Nk" />
+      <rect
+         class="kx"
+         y="495"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_kx" />
+      <rect
+         class="x"
+         y="539"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_x" />
+      <rect
+         class="x_h"
+         y="583"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_x_h" />
+      <rect
+         class="k_lab"
+         y="664"
+         x="1197"
+         height="30"
+         width="60"
+         id="rect_k_lab" />
+      <rect
+         class="x_lab"
+         y="797"
+         x="1197"
+         height="30"
+         width="60"
+         id="rect_x_lab" />
+      <rect
+         class="W"
+         y="847"
+         x="1197"
+         height="30"
+         width="60"
+         id="rect_W" />
+      <rect
+         class="Nbisq"
+         y="986"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_Nbisq" />
+      <rect
+         class="gX"
+         y="1030"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_gX" />
+      <rect
+         class="X"
+         y="1074"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_X" />
+      <rect
+         class="X_h"
+         y="1118"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_X_h" />
+      <rect
+         class="g_inj_rd"
+         y="1168"
+         x="1212"
+         height="30"
+         width="60"
+         id="rect_g_inj_rd" />
+      <rect
+         class="Gbis_inj_o"
+         y="1219"
+         x="1219"
+         height="30"
+         width="60"
+         id="rect_Gbis_inj_o" />
+      <rect
+         class="gG"
+         y="489"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_gG" />
+      <rect
+         class="G"
+         y="533"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_G" />
+      <rect
+         class="Mbis"
+         y="577"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_Mbis" />
+      <rect
+         class="g_lab"
+         y="664"
+         x="1261"
+         height="30"
+         width="60"
+         id="rect_g_lab" />
+      <rect
+         class="N_lab"
+         y="715"
+         x="1261"
+         height="30"
+         width="60"
+         id="rect_N_lab" />
+      <rect
+         class="G_lab"
+         y="797"
+         x="1261"
+         height="30"
+         width="60"
+         id="rect_G_lab" />
+      <rect
+         class="Nbis"
+         y="986"
+         x="11240"
+         height="30"
+         width="60"
+         id="rect_Nbis" />
+      <rect
+         class="Rbis"
+         y="1030"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_Rbis" />
+      <rect
+         class="GbisR"
+         y="1074"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_GbisR" />
+      <rect
+         class="R"
+         y="1118"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_R" />
+      <rect
+         class="g_inj"
+         y="1168"
+         x="1276"
+         height="30"
+         width="60"
+         id="rect_g_inj" />
+      <rect
+         class="Gbis_inj"
+         y="1219"
+         x="1283"
+         height="30"
+         width="60"
+         id="rect_Gbis_inj" />
+      <rect
+         class="Xbis"
+         y="451"
+         x="1361"
+         height="30"
+         width="60"
+         id="rect_Xbis" />
+      <rect
+         class="glo_bar"
+         y="658"
+         x="1383"
+         height="30"
+         width="60"
+         id="rect_glo_bar" />
+      <rect
+         class="glo_barHbis"
+         y="759"
+         x="1383"
+         height="30"
+         width="60"
+         id="rect_glo_barHbis" />
+      <rect
+         class="Hbis"
+         y="910"
+         x="1383"
+         height="30"
+         width="60"
+         id="rect_Hbis" />
+      <rect
+         class="glo"
+         y="967"
+         x="1361"
+         height="30"
+         width="60"
+         id="rect_glo" />
+      <rect
+         class="gloh"
+         y="1067"
+         x="1361"
+         height="30"
+         width="60"
+         id="rect_gloh" />
+      <rect
+         class="h"
+         y="1168"
+         x="1361"
+         height="30"
+         width="60"
+         id="rect_h" />
+      <rect
+         class="globis"
+         y="451"
+         x="1426"
+         height="30"
+         width="60"
+         id="rect_globis" />
+      <rect
+         class="globis_bar"
+         y="910"
+         x="1447"
+         height="30"
+         width="60"
+         id="rect_globis_bar" />
+      <rect
+         class="hbis"
+         y="1168"
+         x="1426"
+         height="30"
+         width="60"
+         id="rect_hbis" />
+      <rect
+         class="dKbis"
+         y="708"
+         x="498"
+         height="30"
+         width="60"
+         id="rect_dKbis" />
+      <rect
+         class="ts_h"
+         y="664"
+         x="434"
+         height="30"
+         width="60"
+         id="rect_ts_h" />
+      <rect
+         class="tK"
+         y="708"
+         x="434"
+         height="30"
+         width="60"
+         id="rect_tK" />
+      <rect
+         class="l_retr"
+         y="708"
+         x="869"
+         height="30"
+         width="60"
+         id="rect_l_retr" />
+      <rect
+         class="Lbis"
+         y="620"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_Lbis" />
+      <rect
+         class="NbisGbis"
+         y="941"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_NbisGbis" />
+      <rect
+         class="Gbis"
+         y="897"
+         x="1240"
+         height="30"
+         width="60"
+         id="rect_Gbis" />
+      <rect
+         class="q"
+         y="897"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_q" />
+      <rect
+         class="q_h"
+         y="941"
+         x="1176"
+         height="30"
+         width="60"
+         id="rect_q_h" />
+    </g>
+    <g
+       id="g_nasals">
+      <rect
+         class="oe_nas"
+         y="115"
+         x="115"
+         height="30"
+         width="60"
+         id="rect_oe_nas" />
+      <rect
+         class="E_nas"
+         y="115"
+         x="50"
+         height="30"
+         width="60"
+         id="rect_E_nas" />
+      <rect
+         class="O_nas"
+         y="115"
+         x="345"
+         height="30"
+         width="60"
+         id="rect_O_nas" />
+      <rect
+         class="o_nas"
+         y="80"
+         x="345"
+         height="30"
+         width="60"
+         id="rect_o_nas" />
+      <rect
+         class="a_nas"
+         y="185"
+         x="218"
+         height="30"
+         width="60"
+         id="rect_a_nas" />
+    </g>
+    <g
+       id="g_vowelsANDsemi">
+      <rect
+         class="i"
+         y="10"
+         x="859"
+         height="30"
+         width="60"
+         id="rect_i" />
+      <rect
+         class="I"
+         y="45"
+         x="994"
+         height="30"
+         width="60"
+         id="rect_I" />
+      <rect
+         class="e"
+         y="80"
+         x="944"
+         height="30"
+         width="60"
+         id="rect_e" />
+      <rect
+         class="Y"
+         y="45"
+         x="1059"
+         height="30"
+         width="60"
+         id="rect_Y" />
+      <rect
+         class="E"
+         y="150"
+         x="1023"
+         height="30"
+         width="60"
+         id="rect_E" />
+      <rect
+         class="y"
+         y="10"
+         x="924"
+         height="30"
+         width="60"
+         id="rect_y" />
+      <rect
+         class="o_bar"
+         y="80"
+         x="1009"
+         height="30"
+         width="60"
+         id="rect_o_bar" />
+      <rect
+         class="a"
+         y="220"
+         x="1184"
+         height="30"
+         width="60"
+         id="rect_a" />
+      <rect
+         class="ae"
+         y="185"
+         x="1119"
+         height="30"
+         width="60"
+         id="rect_ae" />
+      <rect
+         class="oe"
+         y="150"
+         x="1089"
+         height="30"
+         width="60"
+         id="rect_oe" />
+      <rect
+         class="aro"
+         y="115"
+         x="1214"
+         height="30"
+         width="60"
+         id="rect_aro" />
+      <rect
+         class="arobis"
+         y="80"
+         x="1184"
+         height="30"
+         width="60"
+         id="rect_arobis" />
+      <rect
+         class="E_ctr"
+         y="150"
+         x="1184"
+         height="30"
+         width="60"
+         id="rect_E_ctr" />
+      <rect
+         class="E_ctrbis"
+         y="150"
+         x="1249"
+         height="30"
+         width="60"
+         id="rect_E_crtbis" />
+      <rect
+         class="a_low"
+         y="185"
+         x="1214"
+         height="30"
+         width="60"
+         id="rect_a_low" />
+      <rect
+         class="OE"
+         y="220"
+         x="1249"
+         height="30"
+         width="60"
+         id="rect_OE" />
+      <rect
+         class="O_bar"
+         y="80"
+         x="1249"
+         height="30"
+         width="60"
+         id="rect_O_bar" />
+      <rect
+         class="U"
+         y="45"
+         x="1326"
+         height="30"
+         width="60"
+         id="rect_U" />
+      <rect
+         class="M"
+         y="10"
+         x="1404"
+         height="30"
+         width="60"
+         id="rect_M" />
+      <rect
+         class="gbis"
+         y="80"
+         x="1404"
+         height="30"
+         width="60"
+         id="rect_gbis" />
+      <rect
+         class="V"
+         y="150"
+         x="1404"
+         height="30"
+         width="60"
+         id="rect_V" />
+      <rect
+         class="A"
+         y="220"
+         x="1404"
+         height="30"
+         width="60"
+         id="rect_A" />
+      <rect
+         class="u"
+         y="10"
+         x="1469"
+         height="30"
+         width="60"
+         id="rect_u" />
+      <rect
+         class="o"
+         y="80"
+         x="1469"
+         height="30"
+         width="60"
+         id="rect_o" />
+      <rect
+         class="O"
+         y="150"
+         x="1469"
+         height="30"
+         width="60"
+         id="rect_O" />
+      <rect
+         class="Q"
+         y="220"
+         x="1469"
+         height="30"
+         width="60"
+         id="rect_Q" />
+      <rect
+         class="i_bar"
+         y="10"
+         x="1184"
+         height="30"
+         width="60"
+         id="rect_i_bar" />
+      <rect
+         class="u_bar"
+         y="10"
+         x="1249"
+         height="30"
+         width="60"
+         id="rect_u_bar" />
+      <rect
+         class="j"
+         y="270"
+         x="859"
+         height="30"
+         width="60"
+         id="rect_j" />
+      <rect
+         class="H"
+         y="270"
+         x="324"
+         height="30"
+         width="60"
+         id="rect_H" />
+      <rect
+         class="w"
+         y="270"
+         x="1469"
+         height="30"
+         width="60"
+         id="rect_w" />
+    </g>
+  </g>
+</svg>
