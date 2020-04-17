@@ -47,3 +47,7 @@ we could force the 2 phonems of the highest frequency to be in diagonaly opposed
 It might be easier to completely separate these two task into 2 full fledge algo working together
 The fist placing each points relatively to each others without any boundary limitation : a "cloud spreading" algo.
 The second aplying the model by scaling it in order to respect the color-cube boundaries.
+
+
+
+[//]: # (md How To : https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
